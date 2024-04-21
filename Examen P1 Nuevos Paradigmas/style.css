@@ -1,0 +1,45 @@
+body {
+    background-image: url('Gobierno1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white; 
+}
+h3 {
+    color: white; 
+}
+
+/*Cambiar el color del texto arriba de los cuadros*/
+label {
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    /* Añade un borde a las casillas */
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+    padding: 8px; 
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+p{
+    color: white;  
+}
